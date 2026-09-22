@@ -1,0 +1,17 @@
+    3  exit
+    4  ifconfig
+    5  ifconfig -a
+    6  cd ~
+    7  echo "vika" > 1.txt
+    8  cat 1.txt
+    9  echo "vasya" > 2.txt
+   10  cat 2.txt
+   11  diff 1.txt 2.txt
+   12  history
+   13  system_profiler SPPCIDataType
+   14  history > history.txt
+   15  exit
+   16  history > history.txt
+   17  exit
+   18  cd /users/shvetsroman
+   19  history > roothistory.txt
